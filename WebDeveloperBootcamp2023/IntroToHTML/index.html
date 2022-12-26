@@ -6,5 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intro to HTML</title>
   </head>
-  <body></body>
+  <body>
+    <h1>H1: List of countries by Population</h1>
+   
+    <p>
+      <b>Paragraph:</b> This is a list of countries and dependencies by
+      population. It includes sovereign states, inhabited dependent territories
+      and, in some cases, constituent countries of sovereign states, with
+      inclusion within the list being primarily based on the ISO standard ISO
+      3166-1. For instance, the United Kingdom is considered a single entity,
+      while the constituent countries of the Kingdom of the Netherlands are
+      considered separately. In addition, this list includes certain states with
+      limited recognition not found in ISO 3166-1. Also given in a percentage is
+      each country's population compared with the world population, which the
+      United Nations estimates at 7.954 billion as of 2022.<sup>[1]</sup>
+    </p>
+  
+    <p>
+      ol(Ordered List): <b>Contents</b>
+      <ol>
+        <li>Method</li>
+        <li>Sovereign states and dependencies by population</li>
+      </ol>
+      <!--  -->
+
+      ul(Unordered List): <b>Countries</b>
+      <ul>
+        <!-- Added Country Flag -->
+        <li><a href="https://en.wikipedia.org/wiki/Demographics_of_China">China</a><img src="Flag_China.png" width="50px"></li>
+        <li><a href="https://en.wikipedia.org/wiki/Demographics_of_India">India</a><img src="Flag_India.png" width="50px"></li>
+        <li>United States<img src="Flag_UnitedStates.png" width="50px"></li>
+        <li>Indonesia<img src="Flag_Indonesia.png" width="50px"></li>
+      </ul>
+    </p>
+
+    <h2>H2: Method</h2>
+    <p>
+      <b>Paragraph:</b> Figures used in this chart are based on the most
+      up-to-date estimates or projections by the national census authority,
+      where available, and are usually rounded off. Where updated national data
+      are not available, figures are based on the estimates or projections for
+      2022 by the Population Division of the United Nations Department of
+      Economic and Social Affairs. Because the compiled figures are not
+      collected at the same time in every country, or at the same level of
+      accuracy, the resulting numerical comparisons may create misleading
+      conclusions. Furthermore, the addition of figures from all countries may
+      not equal the world total. Areas that form integral parts of sovereign
+      states, such as the countries of the United Kingdom, are counted as part
+      of the sovereign states concerned. Not included are other entities, such
+      as the European Union,[a] that are not sovereign states, and independent
+      territories that do not have permanent populations, such as various
+      countries' claims to Antarctica.<sup>[2]</sup>
+    </p>
+
+    <h2>H2: Sovereign states and dependencies by population</h2>
+    <p>
+      <b>Paragraph:</b> Note: A numbered rank is assigned to the 193 member
+      states of the United Nations, plus the two observer states to the United
+      Nations General Assembly. Dependent territories and constituent countries
+      that are parts of sovereign states are not assigned a numbered rank. In
+      addition, sovereign states with limited recognition are included, but not
+      assigned a number rank.
+    </p>
+
+    <!-- sup Elements and sub Elements (+ <br> : Break Line) -->
+    <hr>
+    <p>
+      3 * 50 = 3<sup>50</sup>
+      <br>
+      Water : H<sub>2</sub>O
+    </p>
+  </body>
 </html>
+
+ <!--  
+      Comments
+      
+      [ Heading Tag ]
+      * Heading Tag : h1, h2, ..., h6
+      * h1 Tag 는 한 Web Page에서 1개만 존재 해야 한다. 
+      * 가장 대표할 수 있는 내용을 담을 수 있도록 한다.
+      * Heading Tag : Block Type Element
+
+      [ P Tag ]
+      * Paragraph(문단)를 나타낼 때 사용한다. 
+      * Block Type Element
+
+      [ List ]
+      * ol 또는 ul 의 자식으로 li 태그를 가진다. 
+      * ol 태그 : 순서가 있는 리스트를 만들 때 사용.
+      * ul 태그 : 순서가 없는 리스트를 만들 때 사용.
+      
+      [ a Tag ] 
+      * Syntax : <a href=""></a>
+      * 하이퍼링크를 이용하여 다른 웹 페이지로 이등.
+      * href 속성에 이동할 경로를 지정.
+      * inline Type Element
+
+      [ b Tag ]
+      * Syntax : <b></b>
+      * 특정 글자를 굵게 표시.
+      * inline Type Element
+
+      [ img Tag ]
+      * Syntax : <img src="" alt="">
+      * Close Tag가 없는 Element
+      * 웹 페이지에 이미지를 표시.
+      * src 속성 : 이미지 파일의 경로를 지정.
+      * alt 속성
+          : 이미지를 불러오는데 실패했을 때 나타내는 문구
+          : ScreenReader에서 읽을 수 있는 역할을 한다. 
+      
+      [ hr Tag ]
+      * Syntax : <hr>
+      * Close tag 가 없는 Element
+      * 수평선을 표시. (Horizontal Rule )
+
+      [ br Tag ]
+      * Syntax : <br>
+      * Close tag 가 없는 Element
+      * 줄바꿈. (Line Break)
+
+      [ sup Tag ]
+      * Syntax : <sup></sup>
+      * 윗 첨자 텍스트 표시.
+      
+      [ sub Tag ]
+      * Syntax : <sub></sub>
+      * 아래 첨자 텍스트 표시.
+      * 화학식등 표현에 많이 사용됨.
+
+      
+    -->
