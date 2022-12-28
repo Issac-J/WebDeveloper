@@ -1,0 +1,26 @@
+* {
+  background-color: #dad7cd;
+}
+
+#search {
+  background-color: whitesmoke;
+}
+
+#signup {
+  background-color: #344e41;
+  color: whitesmoke;
+}
+
+.tag {
+  background-color: #bc6c25;
+  color: whitesmoke;
+}
+
+.post span {
+  background-color: #3a5a40;
+  color: whitesmoke;
+}
+
+.post a {
+  color: #344e41;
+}
