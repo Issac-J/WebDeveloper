@@ -2,25 +2,24 @@
 
 ## About
 
-* Item 을 추가할 수 있는 Item List 를 작성할 수 있습니다. 
-* Form Element 내부 Input Element 를 통해 Item 을 추가할 수 있습니다. 
-* List 에 추가된 Item 은 Web Browser Local Storage 에 저장되어 데이터를 보존하고 유지할 수 있습니다. 
+- Item 을 추가할 수 있는 Item List 를 작성할 수 있습니다.
+- Form Element 내부 Input Element 를 통해 Item 을 추가할 수 있습니다.
+- List 에 추가된 Item 은 Web Browser Local Storage 에 저장되어 데이터를 보존하고 유지할 수 있습니다.
 
-## Deployed Site Url
+## Deployed Site URL
 
-* DEMO Url: https://tangerine-arithmetic-c9b640.netlify.app
+- Demo URL: https://tangerine-arithmetic-c9b640.netlify.app
 
 ## Contents: What I Learn
 
-* HTML
-* CSS, Responsive Web 
-* Basic Vanilla Javascript 
-* Element Handling(CRUD)
-* DOM
-* (Nested)EventListener
+- Responsive Web by CSS
+- DOMContentLoaded
+- Basic Vanilla Javascript
+- Element Handling(CRUD)
+- createAttribute(), setAttribute(), appendChild() etc.
+- (Nested)EventListener
 
-
-<!-- 
+<!--
 # Title / Repository Name
 
 ## About / Synopsis
