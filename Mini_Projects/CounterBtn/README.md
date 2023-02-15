@@ -1,10 +1,9 @@
-# AddItem List
+# Counter Button
 
 ## About
 
-- 증가 버튼과 감소 버튼을 이용한 Counter.
-- 표시되는 양수 or 음수에 따라 색상을 변경.
-- Practice DOM.
+- Increase, Decrease, Reset Button 을 사용하는 Counter.
+- 표시되는 Counter 가 양수 or 음수에 따른 색상 변경.
 
 ## Deployed Site URL
 
