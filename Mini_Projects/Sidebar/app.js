@@ -10,7 +10,8 @@ toggleBtn.addEventListener("click", function () {
   // }
   // sidebar.classList.toggle("show-sidebar");
 
-  console.log(sidebar.classList.contains("show-sidebar"));
+  // console.log(sidebar.classList.contains("show-sidebar"));
+
   sidebar.classList.add("show-sidebar");
 });
 
