@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form & Table</title>
+  </head>
+  <body>
+    <h1>Rank of Countries by Population</h1>
+
+    <hr />
+    <h2>Index</h2>
+    <ol>
+      <li>Table Demo</li>
+      <li>Form Demo</li>
+    </ol>
+
+    <hr />
+    <h3>Table Demo</h3>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Rank</th>
+          <th rowspan="2">Country</th>
+          <th colspan="2">Population</th>
+        </tr>
+        <tr>
+          <th>Numbers</th>
+          <th>% of the world</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>China</td>
+          <td>1412600000</td>
+          <td>17.7%</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>India</td>
+          <td>1375586000</td>
+          <td>17.2%</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>United States</td>
+          <td>334200979</td>
+          <td>4.18%</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Indonesia</td>
+          <td>275773800</td>
+          <td>3.45%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h3>Form Demo</h3>
+    <form action="/birds">
+      <p>
+        <label for="userName">userName</label>
+        <input type="text" id="userName" />
+      </p>
+
+      <p>
+        <label for="password">Password</label>
+        <input type="password" name="" id="password" />
+      </p>
+
+      <p>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" />
+
+        <label for="number">Number</label>
+        <input
+          type="number"
+          name="num"
+          id="number"
+          min="0"
+          max="100"
+          step="10"
+        />
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </p>
+
+      <p>
+        Favorites: <br />
+        <label for="banana">Banana</label>
+        <input type="checkbox" name="banana" id="banana" />
+
+        <label for="apple">Apple</label>
+        <input type="checkbox" name="apple" id="apple" />
+
+        <label for="fish">Fish</label>
+        <input type="checkbox" name="fish" id="fish" />
+      </p>
+
+      <p>
+        <input type="radio" name="question" id="yes" checked />
+        <label for="yes">YES</label>
+
+        <input type="radio" name="question" id="no" />
+        <label for="no">NO</label>
+        <br />
+
+        <label for="text">TextArea</label>
+        <textarea
+          name="text"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Enter your message"
+        ></textarea>
+      </p>
+
+      <input type="button" value="InputBtn" />
+
+      <button>Button</button>
+    </form>
+  </body>
+</html>

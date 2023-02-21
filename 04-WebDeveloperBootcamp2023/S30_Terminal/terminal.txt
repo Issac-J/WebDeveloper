@@ -1,0 +1,32 @@
+Command: ls, pwd, cd, touch, ...
+
+Need to know
+1. Speed
+The terminal takes some getting used to. but it can be MUCH faster than using a GUI
+- GUI, CLI
+GUI : Graphic User Interface.
+CLI : Command Line Interface.
+
+2. Access
+The terminal provides a "mainline" into the heart of our computer.
+giving us access to areas we normally don't interact with.
+
+3. Tool : Node, express ...
+Many of the tools we need are installed and used via the command line.
+We don't have much of a choice. 
+
+
+Confusing Terminalogy
+=> Terminal, Shell, Command Line, Console, Bash ...
+
+- Terminal : A text-based interface to your computer.
+Originally a physical object. But now we use software terminals.
+
+- Shell : The Program running on the terminal (Kind of Software)
+
+- Command Line : 
+
+- Console : 
+
+- Bash : 
+
