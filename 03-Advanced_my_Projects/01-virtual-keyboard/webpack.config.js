@@ -22,8 +22,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Keyboard",
       template: "./index.html",
+      inject: "body",
+      favicon: "./favicon.ico",
     }),
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({ filename: "style.css" }),
   ],
   module: {
     rules: [
