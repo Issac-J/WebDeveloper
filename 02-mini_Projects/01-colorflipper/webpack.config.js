@@ -25,7 +25,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: "BoilerPlate",
+      title: "Color Flipper || Simple",
       template: "./index.html",
       inject: "body",
     }),
