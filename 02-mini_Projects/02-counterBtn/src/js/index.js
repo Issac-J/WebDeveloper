@@ -1,3 +1,4 @@
 import "../css/style.css";
+import { Counter } from "./counter.js";
 
-console.log("Hello, Console.");
+new Counter();
