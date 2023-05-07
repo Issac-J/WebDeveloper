@@ -1,63 +1,37 @@
 const express = require("express");
 const app = express();
-const port = 3000;
 
-app.listen(8080, () => {
-  console.log("Listening on Port: 8080");
-});
+// console.dir(app);
 
 // app.use((req, res) => {
-//   console.log("We got a New Request!!!");
-//   //   res.send("Hello, This is a Response.");
-//   res.send({ color: "red" });
-//   //   res.send("<h1>This is a Response.</h1>");
+//   res.send("<h1>This is h1 Element.</h1>");
 // });
 
-/*** Get ***/
 app.get("/", (req, res) => {
-  res.send("Method: Get, Contents: This is the my Home page.");
+  res.send("This is Root Path");
+});
+
+app.post("/cats", (req, res) => {
+  res.send("Post Request! to /cats");
 });
 
 app.get("/cats", (req, res) => {
-  res.send("Method: Get, Contents: MEOW!!! This is a Cats Page.");
+  // console.log("CAT REQUEST!!!");
+  res.send("MEOW!!!");
 });
 
 app.get("/dogs", (req, res) => {
-  res.send("Method: Get, Contents: WOORF!!! This is a Dogs Page.");
-});
-
-/*** Path Parameter ***/
-app.get("/r/:subreddit", (req, res) => {
-  console.log(req.params);
-  const { subreddit } = req.params;
-  res.send(`<h1>Browsing the ${subreddit} subreddit.</h1>`);
-});
-
-/*** Id Parameter ***/
-app.get("/r/:subreddit/:postId", (req, res) => {
-  console.log(req.params);
-  const { subreddit, postId } = req.params;
-  res.send(
-    `<h1>Viewing Post ID: ${postId} on the ${subreddit} subreddit.</h1>`
-  );
-});
-
-/*** Query String ***/
-app.get("/search", (req, res) => {
-  console.log(req.query);
-  const { q } = req.query;
-  res.send(`<h1>Searching: ${q} </h1>`);
-});
-
-/*** Post ***/
-app.post("/cats", (req, res) => {
-  res.send("Method: Post, Contents: This is a Cats Page.");
+  // console.log("CAT REQUEST!!!");
+  res.send("Woof!!!");
 });
 
 app.get("*", (req, res) => {
-  res.send("Method: Get, Contents: I don't know your path!!!");
+  res.send("I DON'T KNOW THAT PATH!!!");
 });
 
-app.get("*", (req, res) => {
-  res.send("Sorry I don't know your Path");
+// /cats => "meow"
+// /dogs => "woof"
+
+app.listen(8080, () => {
+  console.log("Serving on Port 3000");
 });
