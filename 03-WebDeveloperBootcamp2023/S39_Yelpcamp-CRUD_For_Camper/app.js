@@ -4,11 +4,7 @@ const path = require("path");
 
 // Declare Mongoose
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/yelp-camp", {
-  useNewUrlParser: true,
-  useCreateIndex: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect("mongodb://localhost:27017/yelp-camp");
 
 // Connect Mongoose
 const db = mongoose.connection;
