@@ -1,8 +1,10 @@
+// File: app.js
+
 // Getting Elements From HTML
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
-const colors = ["green", "red", "rgba(133,122,200)", "#f15025"];
+const colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Navy", "Purple"];
 
 // Events
 btn.addEventListener("click", function () {
