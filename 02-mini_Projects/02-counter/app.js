@@ -2,6 +2,8 @@
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
+console.log(btns);
+
 // Variables
 let count = 0;
 
